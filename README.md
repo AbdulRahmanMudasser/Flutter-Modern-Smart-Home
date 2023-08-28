@@ -1,4 +1,4 @@
-# flutter_modern_smart_home_app
+# Flutter Modern Smart Home
 
 A new Flutter project.
 
