@@ -78,11 +78,16 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(
                     "Welcome Home",
-                    style: TextStyle(fontSize: 28, color: Colors.grey[700]),
+                    style: TextStyle(
+                      fontSize: getProportionateScreenWidth(28),
+                      color: Colors.grey[700],
+                    ),
                   ),
                   Text(
                     "ABDUL RAHMAN",
-                    style: GoogleFonts.bebasNeue(fontSize: 50),
+                    style: GoogleFonts.bebasNeue(
+                      fontSize: getProportionateScreenWidth(50),
+                    ),
                   ),
                 ],
               ),
@@ -114,7 +119,7 @@ class _HomePageState extends State<HomePage> {
               child: Text(
                 "Smart Devices",
                 style: TextStyle(
-                  fontSize: 20,
+                  fontSize: getProportionateScreenWidth(20),
                   color: Colors.grey[800],
                   fontWeight: FontWeight.bold,
                 ),
@@ -143,7 +148,7 @@ class _HomePageState extends State<HomePage> {
             ),
 
             const SizedBox(
-              height: 5,
+              height: 10,
             ),
           ],
         ),

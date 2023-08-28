@@ -59,6 +59,8 @@ class SmartDeviceBox extends StatelessWidget {
                   child: CupertinoSwitch(
                     value: powerOn,
                     onChanged: onChanged,
+                    activeColor: Colors.grey[400],
+                    thumbColor: Colors.white,
                   ),
                 ),
               ],
